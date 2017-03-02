@@ -1,0 +1,6 @@
+<h2>Group add</h2>
+<label> Name of group <%= form_tag gmanagers_path(:project_id=>@project), :method=>"post" do%></label>
+<%= text_field_tag "groupname" %>
+
+<%= submit_tag l(:button_save)%>
+<% end %>

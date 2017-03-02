@@ -1,0 +1,66 @@
+# Russian localization for Ruby on Rails 2.2+
+# by Yaroslav Markin <yaroslav@markin.net>
+#
+# Be sure to check out "russian" gem (http://github.com/yaroslav/russian) for
+# full Russian language support in Rails (month names, pluralization, etc).
+# The following is an excerpt from that gem.
+#
+# Для полноценной поддержки русского языка (варианты названий месяцев,
+# плюрализация и так далее) в Rails 2.2 нужно использовать gem "russian"
+# (http://github.com/yaroslav/russian). Следующие данные -- выдержка их него, чтобы
+# была возможность минимальной локализации приложения на русский язык.
+
+ru:
+  direction: ltr
+  date:
+    formats:
+      default: "%d.%m.%Y"
+      short: "%d %b"
+      long: "%d %B %Y"
+
+  
+  label_reports: Отчеты
+  label_Groups: группы
+  label_group: группы
+  groups_header: Группы
+  groups_link: Группы-линк
+  label_groups: Группы
+  header_groups: Групппы-хед
+  text_gmanagers_groups: Группы-текст1
+  text-groups: Группы-просто текст
+  project_module_groups: Управление группами
+#button  
+  button_create: Создать
+  button_change: Изменить
+  label_change: Изменить_лэйбл
+#user
+  user: Пользователь
+  row_user: Поль
+  table_user: Пользак
+  label_user: Пользователь
+  text_user: ПользовательТекст
+  field_user: Пользовательполе
+  notice_user: Пользовательнотис
+  description_user: Пользовательдескр
+#pos  
+  label_position: Должность
+#department  
+  label_department: Отдел
+#link  
+  label_change: Изменить
+  project_module_group: Управление группами
+  button_create: Создать
+  label_groups: Группы
+#permissions (working)  
+  permission_view_groups: Просматривать группы
+  permission_create_groups: Создавать группы
+  permission_change_groups: Изменять группы
+  permission_change_admin_groups: Изменять группы созданные администратором
+  permission_delete_admin_groups: Удалять группы созданные администратором
+  permission_delete_groups: Удалять группы
+  permission_delete_other_groups: Удалять группы других пользователей
+  permission_change_other_groups: Изменять группы других пользователей
+  permission_change_owner: Изменять валдельца группы
+  label_groups_plural: Группы
+  
+

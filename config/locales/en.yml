@@ -1,0 +1,21 @@
+en:
+  # Text direction: Left-to-Right (ltr) or Right-to-Left (rtl)
+  direction: ltr
+  
+
+#plugin items
+
+  label_user: User
+  text_user: User
+  field_user: User
+  label_position: Position
+  label_department: Department
+  permission_view_groups: View groups
+  permission_create_groups: Create groups
+  permission_change_groups: Change groups
+  permission_delete_groups: Delete groups
+  permission_change_admin_groups: Change admin's groups
+  permission_delete_admin_groups: Delete admin's groups
+  permission_change_other_groups: Change other user's groups
+  permission_delete_other_groups: Delete other user's groups
+
