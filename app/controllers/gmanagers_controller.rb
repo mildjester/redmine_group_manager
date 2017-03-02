@@ -3,7 +3,7 @@
 class GmanagersController < ApplicationController
   unloadable
 
-  before_filter :find_project, :authorize
+  before_filter :find_project, :except => ['autocomplete_for_user']
 
   def find_project
     @project=Project.find(params["project_id"])
@@ -121,4 +121,11 @@ class GmanagersController < ApplicationController
       format.html { redirect_to gmanagers_path(:project_id => @project) }
     end
   end
+
+  def autocomplete_for_user
+    respond_to do |format|
+      format.js
+    end
+  end
+
 end
