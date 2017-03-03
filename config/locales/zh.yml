@@ -1,0 +1,21 @@
+zh:
+  # Text direction: Left-to-Right (ltr) or Right-to-Left (rtl)
+  direction: ltr
+  
+
+#plugin items
+
+  label_user: 用户
+  text_user: 用户
+  field_user: 用户
+  label_position: 位置
+  label_department: 部门
+  permission_view_groups: 查看用户组
+  permission_create_groups: 添加用户组
+  permission_change_groups: 编辑用户组
+  permission_delete_groups: 删除用户组
+  permission_change_admin_groups: 编辑管理员的用户组
+  permission_delete_admin_groups: 删除管理员的用户组
+  permission_change_other_groups: 编辑其他用户的用户组
+  permission_delete_other_groups: 删除其他用户的用户组
+
