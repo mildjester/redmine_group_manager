@@ -56,7 +56,7 @@ module GmanagersHelper
     s = content_tag('div', principals_check_box_tags_gmanager('user_select[]', principals), :id => 'principals')
 
     links = pagination_links_full(principal_pages, principal_count, :per_page_links => false) {|text, parameters, options|
-      link_to text, autocomplete_for_user_gmanager_path(gmanager, parameters.merge(:q => params[:q], :format => 'js')), :remote => true
+      link_to text, autocomplete_for_user_gmanager_path(group, parameters.merge(:q => params[:q], :format => 'js')), :remote => true
     }
 
     s + content_tag('p', links, :class => 'pagination') 
