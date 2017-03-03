@@ -59,7 +59,7 @@
     <%= javascript_tag "observeSearchfield('user_search', null, '#{ escape_javascript autocomplete_for_user_gmanager_path(params["id"].to_i) }')" %>
     
     <div id="users">
-	<%= simple_format(render_principals_for_new_group_users_gmanager(params["id"].to_i)) %>
+	<%= render_principals_for_new_group_users_gmanager(params["id"].to_i) %>
     </div>
     
     <p><%= submit_tag l(:button_add) %></p>
