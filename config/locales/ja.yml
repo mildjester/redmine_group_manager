@@ -1,0 +1,21 @@
+en:
+  # Text direction: Left-to-Right (ltr) or Right-to-Left (rtl)
+  direction: ltr
+  
+
+#plugin items
+
+  label_user: ユーザー
+  text_user: ユーザー
+  field_user: ユーザー
+  label_position: 役職
+  label_department: 部署
+  permission_view_groups: グループ参照
+  permission_create_groups: グループ作成
+  permission_change_groups: グループ編集
+  permission_delete_groups: グループ削除
+  permission_change_admin_groups: 管理グループ変更
+  permission_delete_admin_groups: 管理グループ削除
+  permission_change_other_groups: 未所属グループの編集
+  permission_delete_other_groups: 未所属グループの削除
+
